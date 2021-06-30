@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+// import FunctionComponent from "./Components/FunctionComponent";
+// import ClassComponent from "./Components/ClassComponent";
+// import HomeComponent from './Components/LayoutExercise/HomeComponent';
+// import Databinding from './Databinding/Databinding';
+import BaiTapThucHanhLayout from './Components/BaiTapLayoutComponent/BaiTapThucHanhLayout'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HomeComponent/> */}
+      {/* <Databinding/> */}
+      <BaiTapThucHanhLayout/>
     </div>
   );
 }
